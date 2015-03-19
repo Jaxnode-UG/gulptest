@@ -11,4 +11,5 @@ var server = http.createServer(function (req, res) {
 		.pipe(res)
 		//.pipe(process.stdout);
 });
+console.log("Starting HTTP on 127.0.0.1:3000");
 server.listen(3000);

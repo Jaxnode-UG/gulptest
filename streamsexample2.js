@@ -9,4 +9,5 @@ var server = http.createServer(function (req, res) {
 		res.end(data);
 	});
 });
+console.log("Starting HTTP on 127.0.0.1:3000");
 server.listen(3000);

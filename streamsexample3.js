@@ -7,4 +7,5 @@ var server = http.createServer(function (req, res) {
     var stream = fs.createReadStream(__dirname + '/README.md');
     stream.pipe(res);
 });
+console.log("Starting HTTP on 127.0.0.1:3000");
 server.listen(3000);
